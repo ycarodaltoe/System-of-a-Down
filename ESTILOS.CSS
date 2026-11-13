@@ -1,9 +1,11 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Felipa&family=Jim+Nightshade&family=New+Rocker&family=Sedgwick+Ave+Display&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=New+Rocker&family=Sedgwick+Ave+Display&display=swap');
 
 body {
-    background: url("imagens/carbon.jfif");
+    background: url("imagens/fundo.jpg") no-repeat;
+    background-size: 100% 100%;
 }
 
 header {
@@ -32,8 +34,6 @@ img.foto_alb {
     color: antiquewhite;
 }
 
-
-
 h2 {
     text-align: center;
     font-size: 55px;
@@ -51,11 +51,15 @@ table.tabela {
 
 .tabela th{
     border: #990000 solid 5px;
+    font-family: Jim Nightshade;
+    font-size: 25px;
 }
 
 .tabela td{
     border: #990000 solid 5px;
     text-align: center;
+    font-family: Jim Nightshade;
+    font-size: 25px;
 }
 
 h4 {
@@ -66,9 +70,6 @@ h4 {
 .descricao {
     color: antiquewhite;
 }
-/* =========================
-   MENU PRINCIPAL
-   ========================= */
 
 nav#menu ol {
 	list-style: none;
@@ -83,6 +84,7 @@ nav#menu li {
 	background-color: #990000;
 	transition: background-color 2s, transform 1s;
     border: solid 2px black;
+    font-family: New Rocker;
 }
 
 nav#menu a {
@@ -102,6 +104,8 @@ nav#menu a:hover {
 }
 .textos{
     color: antiquewhite;
+    font-family: Jim Nightshade;
+    font-size: 25px;
 }
 .titulo{
     color: antiquewhite;
@@ -117,4 +121,12 @@ nav#menu a:hover {
     text-align: center;
     text-transform: uppercase;
     font-family: New Rocker;
+}
+li{
+    font-family: Jim Nightshade;
+    font-size: 25px;
+}
+p{
+    font-family: Jim Nightshade;
+    font-size: 35px;
 }
