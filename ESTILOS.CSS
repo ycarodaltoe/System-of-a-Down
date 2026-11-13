@@ -1,8 +1,9 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=New+Rocker&family=Sedgwick+Ave+Display&display=swap');
 
 body {
-    background-color: #080808;
+    background: url("imagens/carbon.jfif");
 }
 
 header {
@@ -19,7 +20,7 @@ img.foto_alb {
 
 .txt_alb{
     color: transparent;
-    font-size: 60px;
+    font-size: 40px;
     letter-spacing: -30px;
     transition: all 1.5s;
     text-align: justify;
@@ -42,10 +43,10 @@ h2 {
 
 table.tabela {
     background-color: rgb(19, 19, 19);
-    border: #990000 solid 5px;
+    border: #990000 solid 1px;
     border-spacing: 0px;
     color: antiquewhite;
-    margin: 0 auto;
+    margin: 2 auto;
 }
 
 .tabela th{
@@ -81,6 +82,7 @@ nav#menu li {
 	border-radius: 10px;
 	background-color: #990000;
 	transition: background-color 2s, transform 1s;
+    border: solid 2px black;
 }
 
 nav#menu a {
@@ -90,5 +92,29 @@ nav#menu a {
 
 nav#menu a:hover {
 	color: white;
-	text-decoration: underline;
+}
+.subtitulos{
+    color: antiquewhite;
+    font-family: New Rocker;
+}
+.class p{
+    color: antiquewhite;
+}
+.textos{
+    color: antiquewhite;
+}
+.titulo{
+    color: antiquewhite;
+    text-transform: uppercase;
+    font-family: New Rocker;
+}
+.fotonaoalbum{
+    border: solid 8px black;
+    border-radius: 10px;
+    width: 45%;
+}
+.titulos{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: New Rocker;
 }
