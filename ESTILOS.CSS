@@ -130,3 +130,9 @@ p{
     font-family: Jim Nightshade;
     font-size: 35px;
 }
+
+footer {
+    border-top: solid 2px #990000;
+	text-align: center;
+    color: antiquewhite;
+}
